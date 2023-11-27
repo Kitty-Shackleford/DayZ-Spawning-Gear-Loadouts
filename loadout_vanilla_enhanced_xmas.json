@@ -35,43 +35,45 @@
         "SurvivorF_Baty"
     ],
     "attachmentSlotItemSets": [
-			{
-         "slotName":"Headgear",
-         "discreteItemSets":[
-            {
-               "itemType":"ChristmasHeadband_Antlers",
-               "spawnWeight":1,
-               "attributes":{
-                  "healthMin":1.0,
-                  "healthMax":1.0,
-                  "quantityMin":1.0,
-                  "quantityMax":1.0
-               }
-               "quickBarSlot":-1
-            },
-			{
-               "itemType":"ChristmasHeadband_Gingerbread",
-               "spawnWeight":1,
-               "attributes":{
-                  "healthMin":1.0,
-                  "healthMax":1.0,
-                  "quantityMin":1.0,
-                  "quantityMax":1.0
-               }
-               "quickBarSlot":-1
-            },
-			{
-               "itemType":"ChristmasHeadband_Trees",
-               "spawnWeight":1,
-               "attributes":{
-                  "healthMin":1.0,
-                  "healthMax":1.0,
-                  "quantityMin":1.0,
-                  "quantityMax":1.0
-               }
-               "quickBarSlot":-1
-            }
-			{
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "ChristmasHeadband_Antlers",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "ChristmasHeadband_Gingerbread",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "ChristmasHeadband_Trees",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }      
+            ]
+        },
+		{
             "slotName": "Body",
             "discreteItemSets": [
                 {
@@ -191,55 +193,6 @@
                 }
             ]
         },
-		{
-         "slotName":"Gloves",
-         "discreteItemSets":[
-            {
-               "itemType":"WoolGloves_ChristmasBlue",
-               "spawnWeight":1,
-               "attributes":{
-                  "healthMin":1.0,
-                  "healthMax":1.0,
-                  "quantityMin":1.0,
-                  "quantityMax":1.0
-               },
-               "quickBarSlot":-1
-            },
-			{
-               "itemType":"WoolGlovesFingerless_ChristmasBlue",
-               "spawnWeight":1,
-               "attributes":{
-                  "healthMin":1.0,
-                  "healthMax":1.0,
-                  "quantityMin":1.0,
-                  "quantityMax":1.0
-               },
-               "quickBarSlot":-1
-            },
-            {
-               "itemType":"WoolGloves_ChristmasRed",
-               "spawnWeight":1,
-               "attributes":{
-                  "healthMin":1.0,
-                  "healthMax":1.0,
-                  "quantityMin":1.0,
-                  "quantityMax":1.0
-               },
-               "quickBarSlot":-1
-            },
-			{
-               "itemType":"WoolGlovesFingerless_ChristmasRed",
-               "spawnWeight":1,
-               "attributes":{
-                  "healthMin":1.0,
-                  "healthMax":1.0,
-                  "quantityMin":1.0,
-                  "quantityMax":1.0
-               },
-               "quickBarSlot":-1
-            }
-         ]
-		},
         {
             "slotName": "Feet",
             "discreteItemSets": [
@@ -329,10 +282,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Pear",
@@ -344,6 +309,16 @@
                         },
                         "quickBarSlot": 3
                     },
+					{
+                        "itemType": "Compass",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": -1
+                    },
                     {
                         "itemType": "GPSReceiver",
                         "attributes": {
@@ -351,20 +326,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
+                    },
+                    {
+                        "itemType": "ChernarusMap",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": -1
                     }
-                ],
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Thermometer",
-					"PetrolLighter",
-					"Cannabis"
-					]
+                ]
             },
             {
                 "name": "Cargo2",
@@ -393,10 +370,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Pear",
@@ -425,7 +414,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -440,15 +429,7 @@
                         },
                         "quickBarSlot": -1
                     }
-                ],
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Paper",
-					"Matchbox",
-					"Cannabis"
-					]
+                ]
             },
             {
                 "name": "Cargo3",
@@ -477,10 +458,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Pear",
@@ -509,7 +502,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -523,15 +516,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Thermometer",
-					"Matchbox",
-					"Cannabis"
-					]
+                    }
                 ]
             },
             {
@@ -561,10 +546,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Pear",
@@ -593,7 +590,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -607,15 +604,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Paper",
-					"PetrolLighter",
-					"Cannabis"
-					]
+                    }
                 ]
             },
             {
@@ -645,10 +634,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Plum",
@@ -677,7 +678,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -691,16 +692,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Thermometer",
-					"Matchbox",
-					"Cannabis"
-					]
-                ]
+                    }
                 ]
             },
             {
@@ -730,10 +722,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Plum",
@@ -762,7 +766,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -776,15 +780,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Paper",
-					"Matchbox",
-					"Cannabis"
-					]
+                    }
                 ]
             },
             {
@@ -814,10 +810,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Plum",
@@ -846,7 +854,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -860,15 +868,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Paper",
-					"PetrolLighter",
-					"Cannabis"
-					]
+                    }
                 ]
             },
             {
@@ -898,10 +898,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Plum",
@@ -930,7 +942,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -944,16 +956,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Thermometer",
-					"PetrolLighter",
-					"Cannabis"
-					]
-                ]
+                    }
                 ]
             },
             {
@@ -983,10 +986,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Apple",
@@ -1015,7 +1030,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -1029,16 +1044,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Thermometer",
-					"Matchbox",
-					"Cannabis"
-					]
-                ]
+                    }
                 ]
             },
             {
@@ -1068,10 +1074,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Apple",
@@ -1100,7 +1118,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -1114,15 +1132,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Paper",
-					"Matchbox",
-					"Cannabis"
-					]
+                    }
                 ]
             },
             {
@@ -1152,10 +1162,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Apple",
@@ -1184,7 +1206,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -1198,15 +1220,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Paper",
-					"PetrolLighter",
-					"Cannabis"
-					]
+                    }
                 ]
             },
             {
@@ -1236,10 +1250,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Apple",
@@ -1268,7 +1294,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -1282,16 +1308,7 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
-                    },
-				"simpleChildrenUseDefaultAttributes":false,
-				"simpleChildrenTypes":[
-					"ChernarusMap",
-					"Compass",
-					"Thermometer",
-					"PetrolLighter",
-					"Cannabis"
-					]
-                ]
+                    }
                 ]
             }
     ]

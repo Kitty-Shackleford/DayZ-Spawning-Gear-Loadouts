@@ -1,6 +1,6 @@
 {
     "spawnWeight": 1,
-    "name": "Player",
+    "name": "Vanilla+",
     "characterTypes": [
         "SurvivorM_Mirek",
         "SurvivorM_Boris",
@@ -244,10 +244,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Pear",
@@ -276,7 +288,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -320,10 +332,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Pear",
@@ -352,7 +376,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -396,10 +420,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Pear",
@@ -428,7 +464,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -472,10 +508,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Pear",
@@ -504,7 +552,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -548,10 +596,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Plum",
@@ -580,7 +640,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -624,10 +684,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Plum",
@@ -656,7 +728,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -700,10 +772,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Plum",
@@ -732,7 +816,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -776,10 +860,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Plum",
@@ -808,7 +904,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -852,10 +948,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Apple",
@@ -884,7 +992,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -928,10 +1036,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Apple",
@@ -960,7 +1080,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -1004,10 +1124,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Apple",
@@ -1036,7 +1168,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1
@@ -1080,10 +1212,22 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": 1
+                    },
+					{
+                        "itemType": "PersonalRadio",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0,
+							"simpleChildrenUseDefaultAttributes":true,
+							"simpleChildrenTypes":["Battery9V"]
+                        },
+                        "quickBarSlot": -1
                     },
                     {
                         "itemType": "Apple",
@@ -1112,7 +1256,7 @@
                             "healthMax": 1.0,
                             "quantityMin": 1.0,
                             "quantityMax": 1.0,
-							"simpleChildrenUseDefaultAttributes":false,
+							"simpleChildrenUseDefaultAttributes":true,
 							"simpleChildrenTypes":["Battery9V"]
                         },
                         "quickBarSlot": -1

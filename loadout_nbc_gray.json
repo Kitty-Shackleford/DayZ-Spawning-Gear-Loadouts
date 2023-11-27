@@ -1,6 +1,6 @@
 {
     "spawnWeight": 1,
-    "name": "NBC LOADOUT GREY",
+    "name": "NBC LOADOUT GRAY",
     "characterTypes": [		
 		"SurvivorM_Mirek",
         "SurvivorM_Boris",
@@ -55,7 +55,7 @@
          "slotName":"Mask",
          "discreteItemSets":[
             {
-               "itemType":"GP5GasMask",
+               "itemType":"AirborneMask",
                "spawnWeight":1,
                "attributes":{
                   "healthMin":1.0,
@@ -249,9 +249,6 @@
          ]
      },
 	 {
-		 "slotName":"Vest",
-         "discreteItemSets":[
-            {
                "itemType":"PlateCarrierVest_Black",
                "spawnWeight":1,
                "attributes":{

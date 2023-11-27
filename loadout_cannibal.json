@@ -311,7 +311,6 @@
 				}
 			]
             },
-			,
 			{
                "itemType":"LeatherBelt_Natural",
                "spawnWeight":1,
@@ -527,9 +526,9 @@
 			   "simpleChildrenTypes":["PetrolLighter","Torch","Rag","Lard","Vodka","HumanSteakMeat","LeatherSewingKit"]
             }
 			
-		}
+		
 		]
-      }
+     }
 	 ],
 	 "discreteUnsortedItemSets":[
 		{
