@@ -281,13 +281,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -295,13 +303,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "Pear",
@@ -329,13 +345,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -375,13 +399,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -389,16 +421,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Pear",
+					"itemType": "Apple",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -423,13 +463,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -469,13 +517,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -483,16 +539,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Pear",
+					"itemType": "CaninaBerry",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -517,13 +581,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -563,13 +635,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -577,16 +657,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Pear",
+					"itemType": "SambucusBerry",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -611,13 +699,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -657,13 +753,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -671,13 +775,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "Plum",
@@ -705,13 +817,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -751,13 +871,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -765,16 +893,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Plum",
+					"itemType": "SlicedPumpkin",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -799,13 +935,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -845,13 +989,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -859,16 +1011,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Plum",
+					"itemType": "MacrolepiotaMushroom",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -893,13 +1053,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -939,13 +1107,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -953,16 +1129,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Plum",
+					"itemType": "LactariusMushroom",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -987,13 +1171,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -1033,13 +1225,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -1047,16 +1247,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Apple",
+					"itemType": "Pepper",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1081,13 +1289,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -1127,13 +1343,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -1141,16 +1365,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Apple",
+					"itemType": "Tomato",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1175,13 +1407,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -1221,13 +1461,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -1235,16 +1483,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Apple",
+					"itemType": "BoletusMushroom",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1269,13 +1525,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
@@ -1315,13 +1579,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "PersonalRadio",
@@ -1329,16 +1601,24 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
-					"itemType": "Apple",
+					"itemType": "AgaricusMushroom",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1363,13 +1643,21 @@
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
-						"quantityMax": 1.0,
-						"simpleChildrenUseDefaultAttributes": false,
-						"simpleChildrenTypes": [
-							"Battery9V"
-						]
+						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				},
 				{
 					"itemType": "ChernarusMap",
