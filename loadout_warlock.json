@@ -102,7 +102,7 @@
 			"slotName": "shoulderR",
 			"discreteItemSets": [
 				{
-					"itemType": "Torch",
+					"itemType": "LongTorch",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,

@@ -483,7 +483,7 @@
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"PetrolLighter",
-						"Torch",
+						"LongTorch",
 						"Rag",
 						"Lard",
 						"Vodka",
@@ -504,7 +504,7 @@
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"PetrolLighter",
-						"Torch",
+						"LongTorch",
 						"Rag",
 						"Lard",
 						"Vodka",
@@ -525,7 +525,7 @@
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"PetrolLighter",
-						"Torch",
+						"LongTorch",
 						"Rag",
 						"Lard",
 						"Vodka",
@@ -546,7 +546,7 @@
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"PetrolLighter",
-						"Torch",
+						"LongTorch",
 						"Rag",
 						"Lard",
 						"Vodka",
