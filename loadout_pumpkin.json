@@ -1,27 +1,8 @@
 {
 	"spawnWeight": 1,
-	"name": "The Pumpkin",
+	"name": "Pumpkin",
 	"characterTypes": [
-		"SurvivorM_Mirek",
-		"SurvivorM_Boris",
-		"SurvivorM_Cyril",
-		"SurvivorM_Denis",
-		"SurvivorM_Elias",
-		"SurvivorM_Francis",
-		"SurvivorM_Guo",
-		"SurvivorM_Hassan",
-		"SurvivorM_Indar",
-		"SurvivorM_Jose",
-		"SurvivorM_Kaito",
-		"SurvivorM_Lewis",
-		"SurvivorM_Manua",
-		"SurvivorM_Niki",
-		"SurvivorM_Oliver",
-		"SurvivorM_Peter",
-		"SurvivorM_Quinn",
-		"SurvivorM_Rolf",
-		"SurvivorM_Seth",
-		"SurvivorM_Taiki",
+		"SurvivorF_Baty",
 		"SurvivorF_Eva",
 		"SurvivorF_Frida",
 		"SurvivorF_Gabi",
@@ -31,8 +12,7 @@
 		"SurvivorF_Keiko",
 		"SurvivorF_Linda",
 		"SurvivorF_Maria",
-		"SurvivorF_Naomi",
-		"SurvivorF_Baty"
+		"SurvivorF_Naomi"
 	],
 	"attachmentSlotItemSets": [
 		{
@@ -68,7 +48,7 @@
 			]
 		},
 		{
-			"slotName": "Hands",
+			"slotName": "Gloves",
 			"discreteItemSets": [
 				{
 					"itemType": "HandsCover_Improvised",
@@ -114,7 +94,7 @@
 					"quickBarSlot": -1
 				}
 			]
-		}
+		},
 		{
 			"slotName": "Feet",
 			"discreteItemSets": [
@@ -128,7 +108,6 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1
-					
 				}
 			]
 		}

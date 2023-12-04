@@ -159,7 +159,7 @@
 			"slotName": "Vest",
 			"discreteItemSets": [
 				{
-					"itemType": "PlateCarrierVest_Green",
+					"itemType": "PlateCarrierVest",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -170,7 +170,7 @@
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "PlateCarrierHolster_Green",
+							"itemType": "PlateCarrierHolster",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -194,7 +194,7 @@
 							]
 						},
 						{
-							"itemType": "PlateCarrierPouches_Green",
+							"itemType": "PlateCarrierPouches",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -251,7 +251,7 @@
 			"slotName": "Back",
 			"discreteItemSets": [
 				{
-					"itemType": "AssaultBag_Green",
+					"itemType": "AssaultBag_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 0.8,
@@ -260,7 +260,7 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenUseDefaultAttributes": true,
 					"simpleChildrenTypes": [
 						"Mag_FNX45_15Rnd",
 						"Mag_CMAG_40Rnd",
@@ -361,7 +361,14 @@
 				},
 				{
 					"itemType": "BalaclavaMask_Beige",
-					"spawnWeight": 1
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
 				}
 			]
 		},
@@ -406,7 +413,7 @@
 			"discreteItemSets": [
 				{
 					"itemType": "MilitaryBelt",
-					"spawnWeight": -1,
+					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -416,7 +423,7 @@
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "PlateCarrierHolster_Green",
+							"itemType": "PlateCarrierHolster",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -457,7 +464,7 @@
 								"quantityMin": 1.0,
 								"quantityMax": 1.0
 							},
-							"quickBarSlot": 8
+							"quickBarSlot": 10
 						}
 					]
 				}
@@ -483,7 +490,7 @@
 			"slotName": "Feet",
 			"discreteItemSets": [
 				{
-					"itemType": "JungleBoots_Green",
+					"itemType": "JungleBoots_Beige",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
