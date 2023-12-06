@@ -207,7 +207,7 @@
 			"slotName": "Hips",
 			"discreteItemSets": [
 				{
-					"itemType": "LeatherBelt_Beige",
+					"itemType": "MilitaryBelt",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -218,112 +218,7 @@
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "LeatherKnifeSheath",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1,
-							"complexChildrenTypes": [
-								{
-									"itemType": "FangeKnife",
-									"attributes": {
-										"healthMin": 1.0,
-										"healthMax": 1.0,
-										"quantityMin": 1.0,
-										"quantityMax": 1.0
-									},
-									"quickBarSlot": 4
-								}
-							]
-						}
-					]
-				},
-				{
-					"itemType": "LeatherBelt_Black",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1,
-					"complexChildrenTypes": [
-						{
-							"itemType": "LeatherKnifeSheath",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1,
-							"complexChildrenTypes": [
-								{
-									"itemType": "FangeKnife",
-									"attributes": {
-										"healthMin": 1.0,
-										"healthMax": 1.0,
-										"quantityMin": 1.0,
-										"quantityMax": 1.0
-									},
-									"quickBarSlot": 4
-								}
-							]
-						}
-					]
-				},
-				{
-					"itemType": "LeatherBelt_Brown",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1,
-					"complexChildrenTypes": [
-						{
-							"itemType": "LeatherKnifeSheath",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1,
-							"complexChildrenTypes": [
-								{
-									"itemType": "FangeKnife",
-									"attributes": {
-										"healthMin": 1.0,
-										"healthMax": 1.0,
-										"quantityMin": 1.0,
-										"quantityMax": 1.0
-									},
-									"quickBarSlot": 4
-								}
-							]
-						}
-					]
-				},
-				{
-					"itemType": "LeatherBelt_Natural",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1,
-					"complexChildrenTypes": [
-						{
-							"itemType": "LeatherKnifeSheath",
+							"itemType": "NylonKnifeSheath",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
