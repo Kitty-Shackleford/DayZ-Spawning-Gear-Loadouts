@@ -217,7 +217,29 @@
 						"BloodBagEmpty",
 						"BloodTestKit"
 					]
-				}
+				},
+				{
+					"itemType": "PersonalRadio",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
+				},
 			],
 			"simpleChildrenUseDefaultAttributes": false,
 			"simpleChildrenTypes": [
@@ -255,7 +277,29 @@
 						"BloodBagEmpty",
 						"BloodTestKit"
 					]
-				}
+				},
+				{
+					"itemType": "PersonalRadio",
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Battery9V",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
+				},
 			],
 			"simpleChildrenUseDefaultAttributes": false,
 			"simpleChildrenTypes": [
