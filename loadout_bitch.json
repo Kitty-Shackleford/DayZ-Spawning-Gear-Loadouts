@@ -304,6 +304,50 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1
+				},
+				{
+					"itemType": "BarbedWireLocked",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "DuctTapeLocked",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "MetalWireLocked",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "RopeLocked",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
 				}
 			]
 		}
