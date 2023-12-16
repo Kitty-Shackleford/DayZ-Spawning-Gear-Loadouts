@@ -1,6 +1,6 @@
 {
 	"spawnWeight": 1,
-	"name": "Police Officer",
+	"name": "Hockey",
 	"characterTypes": [
 		"SurvivorM_Mirek",
 		"SurvivorM_Boris",
@@ -36,10 +36,43 @@
 	],
 	"attachmentSlotItemSets": [
 		{
-			"slotName": "Armband",
+			"slotName": "Headgear",
 			"discreteItemSets": [
 				{
-					"itemType": "Armband_LivoniaPolice",
+					"itemType": "HockeyHelmet_Black",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "HockeyHelmet_Blue",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "HockeyHelmet_Red",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "HockeyHelmet_White",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -52,10 +85,104 @@
 			]
 		},
 		{
-			"slotName": "Headgear",
+			"slotName": "Body",
 			"discreteItemSets": [
 				{
-					"itemType": "PoliceCap",
+					"itemType": "QuiltedJacket_Black",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "QuiltedJacket_Blue",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "QuiltedJacket_Green",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "QuiltedJacket_Grey",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "QuiltedJacket_Orange",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "QuiltedJacket_Red",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "QuiltedJacket_Violet",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "QuiltedJacket_Yellow",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				}
+				
+			]
+		},
+		{
+			"slotName": "Mask",
+			"discreteItemSets": [
+				{
+					"itemType": "HockeyMask",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -71,7 +198,7 @@
 			"slotName": "shoulderL",
 			"discreteItemSets": [
 				{
-					"itemType": "Mp133Shotgun",
+					"itemType": "HockeyStick",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -80,14 +207,9 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": 1
-				}
-			]
-		},
-		{
-			"slotName": "Body",
-			"discreteItemSets": [
+				},
 				{
-					"itemType": "PoliceJacket",
+					"itemType": "NewHockeyStick",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -95,96 +217,15 @@
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				}
-			]
-		},
-		{
-			"slotName": "Hips",
-			"discreteItemSets": [
-				{
-					"itemType": "MilitaryBelt",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1,
-					"complexChildrenTypes": [
-						{
-							"itemType": "PlateCarrierHolster_Black",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1,
-							"complexChildrenTypes": [
-								{
-									"itemType": "Glock19",
-									"attributes": {
-										"healthMin": 1.0,
-										"healthMax": 1.0,
-										"quantityMin": 1.0,
-										"quantityMax": 1.0
-									},
-									"quickBarSlot": 3,
-									"simpleChildrenUseDefaultAttributes": true,
-									"simpleChildrenTypes": [
-										"Mag_Glock_15Rnd"
-									]
-								}
-							]
-						}
-					]
-				}
+					"quickBarSlot": 1
+				},
 			]
 		},
 		{
 			"slotName": "Legs",
 			"discreteItemSets": [
 				{
-					"itemType": "PolicePants",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": false,
-					"simpleChildrenTypes": [
-						"PoliceBaton"
-					],
-					"complexChildrenTypes": []
-				}
-			]
-		},
-		{
-			"slotName": "Feet",
-			"discreteItemSets": [
-				{
-					"itemType": "MilitaryBoots_Black",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
-				}
-			]
-		},
-		{
-			"slotName": "Gloves",
-			"discreteItemSets": [
-				{
-					"itemType": "OMNOGloves_Gray",
+					"itemType": "JumpsuitPants_Blue",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -195,7 +236,29 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "OMNOGloves_Brown",
+					"itemType": "JumpsuitPants_Green",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "JumpsuitPants_Grey",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "JumpsuitPants_Red",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -208,16 +271,64 @@
 			]
 		},
 		{
-			"itemType": "PoliceVest",
-			"spawnWeight": 1,
-			"attributes": {
-				"healthMin": 1.0,
-				"healthMax": 1.0,
-				"quantityMin": 1.0,
-				"quantityMax": 1.0
-			},
-			"quickBarSlot": -1,
-			"simpleChildrenUseDefaultAttributes": false
+			"slotName": "Feet",
+			"discreteItemSets": [
+				{
+					"itemType": "Sneakers_Black",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "Sneakers_Gray",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "Sneakers_Green",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "Sneakers_Red",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "Sneakers_White",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				}
+			]
 		}
 	],
 	"discreteUnsortedItemSets": [
@@ -232,24 +343,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -360,24 +461,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -488,24 +579,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -616,24 +697,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -744,24 +815,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -872,24 +933,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -1000,24 +1051,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -1128,24 +1169,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -1256,24 +1287,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -1384,24 +1405,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -1512,24 +1523,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",
@@ -1640,24 +1641,14 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "BandageDressing",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "HandcuffKeys",
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
+					"quickBarSlot": 2
 				},
 				{
 					"itemType": "Flashlight",

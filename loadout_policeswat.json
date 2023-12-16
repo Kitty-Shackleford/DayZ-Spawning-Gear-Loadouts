@@ -1,6 +1,6 @@
 {
 	"spawnWeight": 1,
-	"name": "Police Officer",
+	"name": "Police SWAT",
 	"characterTypes": [
 		"SurvivorM_Mirek",
 		"SurvivorM_Boris",
@@ -55,7 +55,7 @@
 			"slotName": "Headgear",
 			"discreteItemSets": [
 				{
-					"itemType": "PoliceCap",
+					"itemType": "Mich2001Helmet",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -71,15 +71,75 @@
 			"slotName": "shoulderL",
 			"discreteItemSets": [
 				{
-					"itemType": "Mp133Shotgun",
-					"spawnWeight": 1,
+					"itemType": "M4A1",
+					"spawnWeight": 3,
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": 1
+					"quickBarSlot": 2,
+					"complexChildrenTypes": [
+						{
+							"itemType": "M4_Suppressor",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						},
+						{
+							"itemType": "M4_OEBttstck",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						},
+						{
+							"itemType": "M4_RISHndgrd",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						},
+						{
+							"itemType": "M4_T3NRDSOptic",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": true,
+							"simpleChildrenTypes": [
+								"Battery9V"
+							]
+						},
+						{
+							"itemType": "Mag_CMAG_40Rnd",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					],
+					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenTypes": [
+						"M9A1_Bayonet"
+					]
 				}
 			]
 		},
@@ -87,7 +147,7 @@
 			"slotName": "Body",
 			"discreteItemSets": [
 				{
-					"itemType": "PoliceJacket",
+					"itemType": "PoliceJacketOrel",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -147,7 +207,7 @@
 			"slotName": "Legs",
 			"discreteItemSets": [
 				{
-					"itemType": "PolicePants",
+					"itemType": "PolicePantsOrel",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -158,7 +218,13 @@
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
-						"PoliceBaton"
+						"PetrolLighter",
+						"PunchedCard",
+						"TetracyclineAntibiotics",
+						"VitaminBottle",
+						"BandageDressing",
+						"BandageDressing",
+						"BandageDressing"
 					],
 					"complexChildrenTypes": []
 				}
