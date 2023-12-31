@@ -359,9 +359,6 @@
 			]
 		},
 		{
-			"slotName": "Eyewear",
-			"discreteItemSets": [
-				{
 					"itemType": "NVGHeadstrap",
 					"spawnWeight": 1,
 					"attributes": {
@@ -371,9 +368,24 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": true
-				}
-			]
+					"complexChildrenTypes": [
+						{
+							"itemType": "NVGoggles",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": true,
+							"simpleChildrenTypes": [
+								"Battery9V"
+							]
+						}
+					],
+					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenTypes": []
 		},
 		{
 			"slotName": "Hands",
