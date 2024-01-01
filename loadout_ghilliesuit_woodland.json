@@ -401,9 +401,7 @@
 					},
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
-					"simpleChildrenTypes": [
-						"Animal_UrsusArctos"
-					]
+					"simpleChildrenTypes": []
 				}
 			]
 		},
