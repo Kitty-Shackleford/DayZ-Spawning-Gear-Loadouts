@@ -1,45 +1,34 @@
 {
 	"spawnWeight": 1,
-	"name": "NBC LOADOUT YELLOW",
+	"name": "Player",
 	"characterTypes": [
-		"SurvivorM_Mirek",
 		"SurvivorM_Boris",
-		"SurvivorM_Cyril",
-		"SurvivorM_Denis",
-		"SurvivorM_Elias",
-		"SurvivorM_Francis",
-		"SurvivorM_Guo",
-		"SurvivorM_Hassan",
-		"SurvivorM_Indar",
-		"SurvivorM_Jose",
-		"SurvivorM_Kaito",
-		"SurvivorM_Lewis",
-		"SurvivorM_Manua",
-		"SurvivorM_Niki",
-		"SurvivorM_Oliver",
-		"SurvivorM_Peter",
-		"SurvivorM_Quinn",
-		"SurvivorM_Rolf",
-		"SurvivorM_Seth",
-		"SurvivorM_Taiki",
-		"SurvivorF_Eva",
-		"SurvivorF_Frida",
-		"SurvivorF_Gabi",
-		"SurvivorF_Helga",
-		"SurvivorF_Irena",
-		"SurvivorF_Judy",
-		"SurvivorF_Keiko",
-		"SurvivorF_Linda",
-		"SurvivorF_Maria",
-		"SurvivorF_Naomi",
-		"SurvivorF_Baty"
+        "SurvivorM_Cyril",
+        "SurvivorM_Denis",
+        "SurvivorM_Elias",
+        "SurvivorM_Francis",
+        "SurvivorM_Guo",
+        "SurvivorM_Hassan",
+        "SurvivorM_Indar",
+        "SurvivorM_Jose",
+        "SurvivorM_Kaito",
+        "SurvivorM_Lewis",
+        "SurvivorM_Manua",
+        "SurvivorM_Mirek",
+        "SurvivorM_Niki",
+        "SurvivorM_Oliver",
+        "SurvivorM_Peter",
+        "SurvivorM_Quinn",
+        "SurvivorM_Rolf",
+        "SurvivorM_Seth",
+        "SurvivorM_Taiki"
 	],
 	"attachmentSlotItemSets": [
 		{
 			"slotName": "Headgear",
 			"discreteItemSets": [
 				{
-					"itemType": "NBCHoodYellow",
+					"itemType": "WitchHood_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -55,7 +44,106 @@
 			"slotName": "Mask",
 			"discreteItemSets": [
 				{
-					"itemType": "AirborneMask",
+					"itemType": "SantasBeard",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				}
+			]
+		},
+		{
+			"slotName": "shoulderL",
+			"discreteItemSets": [
+				{
+					"itemType": "Vikhr",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "KobraOptic",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": true,
+							"simpleChildrenTypes": [
+								"Battery9V"
+							]
+						},
+						{
+							"itemType": "Mag_Vikhr_30Rnd",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
+				}
+			]
+		},
+		{
+			"slotName": "shoulderR",
+			"discreteItemSets": [
+				{
+					"itemType": "LongTorch",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 2,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Rag",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": true,
+							"simpleChildrenTypes": [
+								"Rag",
+								"Rag",
+								"Rag",
+								"Rag",
+								"Rag",
+								"Rag",
+								"Lard",
+								"Lard",
+								"Lard"
+								
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"slotName": "Body",
+			"discreteItemSets": [
+				{
+					"itemType": "Raincoat_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -66,60 +154,11 @@
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
-						"GasMask_Filter"
+						"Grenade_ChemGas",
+						"Grenade_ChemGas",
+						"Grenade_ChemGas"
+						
 					]
-				}
-			]
-		},
-		{
-			"slotName": "shoulderL",
-			"discreteItemSets": [
-				{
-					"itemType": "M79",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": 1
-				}
-			]
-		},
-		{
-			"slotName": "shoulderR",
-			"discreteItemSets": [
-				{
-					"itemType": "M14",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": 2,
-					"simpleChildrenUseDefaultAttributes": false,
-					"simpleChildrenTypes": [
-						"Mag_M14_20Rnd"
-					]
-				}
-			]
-		},
-		{
-			"slotName": "Body",
-			"discreteItemSets": [
-				{
-					"itemType": "NBCJacketYellow",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
 				}
 			]
 		},
@@ -203,7 +242,7 @@
 			"slotName": "Legs",
 			"discreteItemSets": [
 				{
-					"itemType": "NBCPantsYellow",
+					"itemType": "CargoPants_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -212,7 +251,7 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenUseDefaultAttributes": true,
 					"simpleChildrenTypes": [
 						"PetrolLighter",
 						"PunchedCard",
@@ -221,8 +260,7 @@
 						"BandageDressing",
 						"BandageDressing",
 						"BandageDressing"
-					],
-					"complexChildrenTypes": []
+					]
 				}
 			]
 		},
@@ -230,7 +268,7 @@
 			"slotName": "Feet",
 			"discreteItemSets": [
 				{
-					"itemType": "NBCBootsYellow",
+					"itemType": "MedievalBoots",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -246,7 +284,29 @@
 			"slotName": "Gloves",
 			"discreteItemSets": [
 				{
-					"itemType": "NBCGlovesYellow",
+					"itemType": "PaddedGloves_Brown",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "PaddedGloves_Beige",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "PaddedGloves_Threat",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -259,49 +319,18 @@
 			]
 		},
 		{
-			"itemType": "PlateCarrierVest_Black",
-			"spawnWeight": 1,
-			"attributes": {
-				"healthMin": 1.0,
-				"healthMax": 1.0,
-				"quantityMin": 1.0,
-				"quantityMax": 1.0
-			},
-			"quickBarSlot": -1,
-			"simpleChildrenUseDefaultAttributes": false,
-			"simpleChildrenTypes": [
-				"Ammo_40mm_Chemgas",
-				"Ammo_40mm_Chemgas",
-				"Ammo_40mm_Chemgas",
-				"Ammo_40mm_Chemgas",
-				"PlateCarrierPouches_Black"
-			],
-			"complexChildrenTypes": [
+			"slotName": "Vest",
+			"discreteItemSets": [
 				{
-					"itemType": "PlateCarrierHolster_Black",
+					"itemType": "HighCapacityVest_Black",
+					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1,
-					"complexChildrenTypes": [
-						{
-							"itemType": "Glock19",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": 3,
-							"simpleChildrenUseDefaultAttributes": true,
-							"simpleChildrenTypes": [
-								"Mag_Glock_15Rnd"
-							]
-						}
-					]
+					"quickBarSlot": -1
 				}
 			]
 		},
@@ -309,7 +338,7 @@
 			"slotName": "Back",
 			"discreteItemSets": [
 				{
-					"itemType": "AliceBag_Black",
+					"itemType": "Slingbag_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 0.8,
@@ -317,34 +346,23 @@
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": true,
-					"simpleChildrenTypes": [
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas"
-					]
+					"quickBarSlot": -1
+				}
+			]
+		},
+		{
+			"slotName": "Hands",
+			"discreteItemSets": [
+				{
+					"itemType": "Grenade_ChemGas",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
 				}
 			]
 		}
@@ -361,7 +379,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Ammo_40mm_Smoke_Black",
+					"itemType": "Grenade_ChemGas",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -371,7 +389,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Black",
+					"itemType": "Grenade_ChemGas",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -381,7 +399,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Black",
+					"itemType": "Grenade_ChemGas",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -393,16 +411,16 @@
 				{
 					"itemType": "FirstAidKit",
 					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
+						"healthMin": 0.7,
+						"healthMax": 0.8,
+						"quantityMin": 0.05,
+						"quantityMax": 0.1
 					},
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"BandageDressing",
-						"AntiChemInjector",
+						"TetracyclineAntibiotics",
 						"StartKitIV",
 						"BloodBagEmpty",
 						"BloodTestKit"
@@ -426,7 +444,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Ammo_40mm_Smoke_Green",
+					"itemType": "Grenade_ChemGas",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -436,7 +454,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Green",
+					"itemType": "Grenade_ChemGas",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -446,7 +464,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Green",
+					"itemType": "Grenade_ChemGas",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -458,16 +476,16 @@
 				{
 					"itemType": "FirstAidKit",
 					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
+						"healthMin": 0.7,
+						"healthMax": 0.8,
+						"quantityMin": 0.05,
+						"quantityMax": 0.1
 					},
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"BandageDressing",
-						"AntiChemInjector",
+						"TetracyclineAntibiotics",
 						"StartKitIV",
 						"BloodBagEmpty",
 						"BloodTestKit"
@@ -491,7 +509,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Ammo_40mm_Smoke_Red",
+					"itemType": "Grenade_ChemGas",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -501,7 +519,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Red",
+					"itemType": "Grenade_ChemGas",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -511,7 +529,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Red",
+					"itemType": "Grenade_ChemGas",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -523,16 +541,16 @@
 				{
 					"itemType": "FirstAidKit",
 					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
+						"healthMin": 0.7,
+						"healthMax": 0.8,
+						"quantityMin": 0.05,
+						"quantityMax": 0.1
 					},
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"BandageDressing",
-						"AntiChemInjector",
+						"TetracyclineAntibiotics",
 						"StartKitIV",
 						"BloodBagEmpty",
 						"BloodTestKit"

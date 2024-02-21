@@ -1,6 +1,6 @@
 {
 	"spawnWeight": 1,
-	"name": "Military_Russian_TSKO",
+	"name": "Player",
 	"characterTypes": [
 		"SurvivorF_Baty"
 	],
@@ -9,7 +9,7 @@
 			"slotName": "shoulderR",
 			"discreteItemSets": [
 				{
-					"itemType": "M79",
+					"itemType": "M14",
 					"spawnWeight": 3,
 					"attributes": {
 						"healthMin": 1.0,
@@ -20,7 +20,21 @@
 					"quickBarSlot": 1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "Ammo_40mm_Explosive",
+							"itemType": "ACOGOptic",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": true,
+							"simpleChildrenTypes": [
+								"Battery9V"
+							]
+						},
+						{
+							"itemType": "Mag_M14_20Rnd",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -37,7 +51,7 @@
 			"slotName": "shoulderL",
 			"discreteItemSets": [
 				{
-					"itemType": "AKM",
+					"itemType": "M4A1",
 					"spawnWeight": 3,
 					"attributes": {
 						"healthMin": 1.0,
@@ -48,7 +62,7 @@
 					"quickBarSlot": 2,
 					"complexChildrenTypes": [
 						{
-							"itemType": "AK_Suppressor",
+							"itemType": "M4_Suppressor",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -58,7 +72,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "AK_FoldingBttstck",
+							"itemType": "M4_OEBttstck",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -68,7 +82,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "AK_RailHndgrd",
+							"itemType": "M4_RISHndgrd",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -78,7 +92,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "PSO1Optic",
+							"itemType": "M4_T3NRDSOptic",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -92,7 +106,7 @@
 							]
 						},
 						{
-							"itemType": "Mag_AKM_Drum75Rnd",
+							"itemType": "Mag_CMAG_40Rnd",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -104,7 +118,7 @@
 					],
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
-						"AK_Bayonet"
+						"M9A1_Bayonet"
 					]
 				}
 			]
@@ -113,7 +127,7 @@
 			"slotName": "Headgear",
 			"discreteItemSets": [
 				{
-					"itemType": "BoonieHat_Dubok",
+					"itemType": "BallisticHelmet_Desert",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -129,7 +143,7 @@
 			"slotName": "Body",
 			"discreteItemSets": [
 				{
-					"itemType": "TTsKOJacket_Camo",
+					"itemType": "USMCJacket_Desert",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -145,7 +159,7 @@
 			"slotName": "Vest",
 			"discreteItemSets": [
 				{
-					"itemType": "PlateCarrierVest_Camo",
+					"itemType": "PlateCarrierVest",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -156,7 +170,7 @@
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "PlateCarrierHolster_Camo",
+							"itemType": "PlateCarrierHolster",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -166,21 +180,21 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "CZ75",
+							"itemType": "FNX45",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
 								"quantityMin": 1.0,
 								"quantityMax": 1.0
 							},
-							"quickBarSlot": 1,
+							"quickBarSlot": 5,
 							"simpleChildrenUseDefaultAttributes": false,
 							"simpleChildrenTypes": [
-								"Mag_CZ75_15Rnd"
+								"Mag_FNX45_15Rnd"
 							]
 						},
 						{
-							"itemType": "PlateCarrierPouches_Camo",
+							"itemType": "PlateCarrierPouches",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -200,7 +214,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "M18SmokeGrenade_Green",
+							"itemType": "M18SmokeGrenade_Red",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -210,7 +224,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "RGD5Grenade",
+							"itemType": "M67Grenade",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -220,7 +234,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "RGD5Grenade",
+							"itemType": "M67Grenade",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -237,7 +251,7 @@
 			"slotName": "Back",
 			"discreteItemSets": [
 				{
-					"itemType": "AssaultBag_Ttsko",
+					"itemType": "AssaultBag_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 0.8,
@@ -246,11 +260,11 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenUseDefaultAttributes": true,
 					"simpleChildrenTypes": [
-						"Mag_CZ75_15Rnd",
-						"Mag_AKM_Drum75Rnd",
-						"Mag_AKM_Drum75Rnd"
+						"Mag_FNX45_15Rnd",
+						"Mag_CMAG_40Rnd",
+						"Mag_CMAG_40Rnd"
 					]
 				}
 			]
@@ -286,7 +300,7 @@
 			"slotName": "Gloves",
 			"discreteItemSets": [
 				{
-					"itemType": "OMNOGloves_Gray",
+					"itemType": "TacticalGloves_Beige",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -297,7 +311,18 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "OMNOGloves_Brown",
+					"itemType": "TacticalGloves_Green",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "TacticalGloves_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -398,7 +423,7 @@
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "PlateCarrierHolster_Camo",
+							"itemType": "PlateCarrierHolster",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -408,7 +433,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "CZ75",
+							"itemType": "FNX45",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -418,7 +443,7 @@
 							"quickBarSlot": -1,
 							"simpleChildrenUseDefaultAttributes": false,
 							"simpleChildrenTypes": [
-								"Mag_CZ75_15Rnd"
+								"Mag_FNX45_15Rnd"
 							]
 						},
 						{
@@ -432,14 +457,14 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "AK_Bayonet",
+							"itemType": "M9A1_Bayonet",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
 								"quantityMin": 1.0,
 								"quantityMax": 1.0
 							},
-							"quickBarSlot": -1
+							"quickBarSlot": 10
 						}
 					]
 				}
@@ -449,7 +474,7 @@
 			"slotName": "Legs",
 			"discreteItemSets": [
 				{
-					"itemType": "TTSKOPants",
+					"itemType": "USMCPants_Desert",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -465,7 +490,7 @@
 			"slotName": "Feet",
 			"discreteItemSets": [
 				{
-					"itemType": "TTSKOBoots",
+					"itemType": "JungleBoots_Beige",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,

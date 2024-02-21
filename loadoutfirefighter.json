@@ -1,6 +1,6 @@
 {
 	"spawnWeight": 1,
-	"name": "Police SWAT",
+	"name": "Player",
 	"characterTypes": [
 		"SurvivorM_Mirek",
 		"SurvivorM_Boris",
@@ -36,10 +36,10 @@
 	],
 	"attachmentSlotItemSets": [
 		{
-			"slotName": "Armband",
+			"slotName": "Headgear",
 			"discreteItemSets": [
 				{
-					"itemType": "Armband_LivoniaPolice",
+					"itemType": "FirefightersHelmet_Red",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -48,14 +48,20 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1
-				}
-			]
-		},
-		{
-			"slotName": "Headgear",
-			"discreteItemSets": [
+				},
 				{
-					"itemType": "Mich2001Helmet",
+					"itemType": "FirefightersHelmet_White",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "FirefightersHelmet_Yellow",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -71,75 +77,37 @@
 			"slotName": "shoulderL",
 			"discreteItemSets": [
 				{
-					"itemType": "M4A1",
-					"spawnWeight": 3,
+					"itemType": "FirefighterAxe",
+					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": 2,
-					"complexChildrenTypes": [
-						{
-							"itemType": "M4_Suppressor",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1
-						},
-						{
-							"itemType": "M4_OEBttstck",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1
-						},
-						{
-							"itemType": "M4_RISHndgrd",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1
-						},
-						{
-							"itemType": "M4_T3NRDSOptic",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1,
-							"simpleChildrenUseDefaultAttributes": true,
-							"simpleChildrenTypes": [
-								"Battery9V"
-							]
-						},
-						{
-							"itemType": "Mag_CMAG_40Rnd",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1
-						}
-					],
-					"simpleChildrenUseDefaultAttributes": false,
-					"simpleChildrenTypes": [
-						"M9A1_Bayonet"
-					]
+					"quickBarSlot": 1
+				},
+				{
+					"itemType": "FirefighterAxe_Black",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 1
+				},
+				{
+					"itemType": "FirefighterAxe_Green",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 1
 				}
 			]
 		},
@@ -147,7 +115,18 @@
 			"slotName": "Body",
 			"discreteItemSets": [
 				{
-					"itemType": "PoliceJacketOrel",
+					"itemType": "FirefighterJacket_Beige",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "FirefighterJacket_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -173,6 +152,38 @@
 					},
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
+						{
+							"itemType": "Canteen",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": 5
+						},
+						{
+							"itemType": "NylonKnifeSheath",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1,
+							"complexChildrenTypes": [
+								{
+									"itemType": "FangeKnife",
+									"attributes": {
+										"healthMin": 1.0,
+										"healthMax": 1.0,
+										"quantityMin": 1.0,
+										"quantityMax": 1.0
+									},
+									"quickBarSlot": 4
+								}
+							]
+						},
 						{
 							"itemType": "PlateCarrierHolster_Black",
 							"attributes": {
@@ -207,7 +218,29 @@
 			"slotName": "Legs",
 			"discreteItemSets": [
 				{
-					"itemType": "PolicePantsOrel",
+					"itemType": "FirefightersPants_Beige",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1,
+					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenTypes": [
+						"PetrolLighter",
+						"PunchedCard",
+						"TetracyclineAntibiotics",
+						"VitaminBottle",
+						"BandageDressing",
+						"BandageDressing",
+						"BandageDressing"
+					],
+					"complexChildrenTypes": []
+				},
+				{
+					"itemType": "FirefightersPants_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -272,18 +305,6 @@
 					"quickBarSlot": -1
 				}
 			]
-		},
-		{
-			"itemType": "PoliceVest",
-			"spawnWeight": 1,
-			"attributes": {
-				"healthMin": 1.0,
-				"healthMax": 1.0,
-				"quantityMin": 1.0,
-				"quantityMax": 1.0
-			},
-			"quickBarSlot": -1,
-			"simpleChildrenUseDefaultAttributes": false
 		}
 	],
 	"discreteUnsortedItemSets": [
@@ -298,7 +319,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -308,7 +329,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -426,7 +447,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -436,7 +457,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -554,7 +575,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -564,7 +585,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -682,7 +703,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -692,7 +713,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -810,7 +831,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -820,7 +841,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -938,7 +959,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -948,7 +969,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1066,7 +1087,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1076,7 +1097,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1194,7 +1215,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1204,7 +1225,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1322,7 +1343,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1332,7 +1353,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1450,7 +1471,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1460,7 +1481,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1578,7 +1599,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1588,7 +1609,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1706,7 +1727,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Handcuffs",
+					"itemType": "Epinephrine",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -1716,7 +1737,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "HandcuffKeys",
+					"itemType": "Battery9V",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,

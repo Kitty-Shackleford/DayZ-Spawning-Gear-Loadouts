@@ -1,6 +1,6 @@
 {
 	"spawnWeight": 1,
-	"name": "Military_BDU",
+	"name": "Player",
 	"characterTypes": [
 		"SurvivorF_Baty"
 	],
@@ -9,7 +9,7 @@
 			"slotName": "shoulderR",
 			"discreteItemSets": [
 				{
-					"itemType": "M14",
+					"itemType": "M79",
 					"spawnWeight": 3,
 					"attributes": {
 						"healthMin": 1.0,
@@ -20,21 +20,7 @@
 					"quickBarSlot": 1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "ACOGOptic",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1,
-							"simpleChildrenUseDefaultAttributes": true,
-							"simpleChildrenTypes": [
-								"Battery9V"
-							]
-						},
-						{
-							"itemType": "Mag_M14_20Rnd",
+							"itemType": "Ammo_40mm_Explosive",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -51,7 +37,7 @@
 			"slotName": "shoulderL",
 			"discreteItemSets": [
 				{
-					"itemType": "M4A1",
+					"itemType": "AKM",
 					"spawnWeight": 3,
 					"attributes": {
 						"healthMin": 1.0,
@@ -62,7 +48,7 @@
 					"quickBarSlot": 2,
 					"complexChildrenTypes": [
 						{
-							"itemType": "M4_Suppressor",
+							"itemType": "AK_Suppressor",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -72,7 +58,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "M4_OEBttstck",
+							"itemType": "AK_FoldingBttstck",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -82,7 +68,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "M4_RISHndgrd",
+							"itemType": "AK_RailHndgrd",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -92,7 +78,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "M4_T3NRDSOptic",
+							"itemType": "PSO1Optic",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -106,7 +92,7 @@
 							]
 						},
 						{
-							"itemType": "Mag_CMAG_40Rnd",
+							"itemType": "Mag_AKM_Drum75Rnd",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -118,7 +104,7 @@
 					],
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
-						"M9A1_Bayonet"
+						"AK_Bayonet"
 					]
 				}
 			]
@@ -127,7 +113,7 @@
 			"slotName": "Headgear",
 			"discreteItemSets": [
 				{
-					"itemType": "BallisticHelmet_BDU",
+					"itemType": "BoonieHat_Dubok",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -143,7 +129,7 @@
 			"slotName": "Body",
 			"discreteItemSets": [
 				{
-					"itemType": "BDUJacket",
+					"itemType": "TTsKOJacket_Camo",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -159,7 +145,7 @@
 			"slotName": "Vest",
 			"discreteItemSets": [
 				{
-					"itemType": "PlateCarrierVest_Green",
+					"itemType": "PlateCarrierVest_Camo",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -170,7 +156,7 @@
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "PlateCarrierHolster_Green",
+							"itemType": "PlateCarrierHolster_Camo",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -180,21 +166,21 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "FNX45",
+							"itemType": "CZ75",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
 								"quantityMin": 1.0,
 								"quantityMax": 1.0
 							},
-							"quickBarSlot": 5,
+							"quickBarSlot": 1,
 							"simpleChildrenUseDefaultAttributes": false,
 							"simpleChildrenTypes": [
-								"Mag_FNX45_15Rnd"
+								"Mag_CZ75_15Rnd"
 							]
 						},
 						{
-							"itemType": "PlateCarrierPouches_Green",
+							"itemType": "PlateCarrierPouches_Camo",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -214,7 +200,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "M18SmokeGrenade_Red",
+							"itemType": "M18SmokeGrenade_Green",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -224,7 +210,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "M67Grenade",
+							"itemType": "RGD5Grenade",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -234,7 +220,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "M67Grenade",
+							"itemType": "RGD5Grenade",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -251,7 +237,7 @@
 			"slotName": "Back",
 			"discreteItemSets": [
 				{
-					"itemType": "AssaultBag_Black",
+					"itemType": "AssaultBag_Ttsko",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 0.8,
@@ -260,11 +246,11 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": true,
+					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
-						"Mag_FNX45_15Rnd",
-						"Mag_CMAG_40Rnd",
-						"Mag_CMAG_40Rnd"
+						"Mag_CZ75_15Rnd",
+						"Mag_AKM_Drum75Rnd",
+						"Mag_AKM_Drum75Rnd"
 					]
 				}
 			]
@@ -300,7 +286,18 @@
 			"slotName": "Gloves",
 			"discreteItemSets": [
 				{
-					"itemType": "TacticalGloves_Green",
+					"itemType": "OMNOGloves_Gray",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "OMNOGloves_Brown",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -325,14 +322,9 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1
-				}
-			]
-		},
-		{
-			"slotName": "Eyewear",
-			"discreteItemSets": [
+				},
 				{
-					"itemType": "NVGHeadstrap",
+					"itemType": "BalaclavaMask_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -340,8 +332,34 @@
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": true
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "BalaclavaMask_Beige",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				}
+			]
+		},
+		{
+			"slotName": "Eyewear",
+			"discreteItemSets": [
+				{
+					"itemType": "AviatorGlasses",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
 				}
 			]
 		},
@@ -380,7 +398,7 @@
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "PlateCarrierHolster_Green",
+							"itemType": "PlateCarrierHolster_Camo",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -390,7 +408,7 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "FNX45",
+							"itemType": "CZ75",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -400,7 +418,7 @@
 							"quickBarSlot": -1,
 							"simpleChildrenUseDefaultAttributes": false,
 							"simpleChildrenTypes": [
-								"Mag_FNX45_15Rnd"
+								"Mag_CZ75_15Rnd"
 							]
 						},
 						{
@@ -414,14 +432,14 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "FangeKnife",
+							"itemType": "AK_Bayonet",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
 								"quantityMin": 1.0,
 								"quantityMax": 1.0
 							},
-							"quickBarSlot": 9
+							"quickBarSlot": -1
 						}
 					]
 				}
@@ -431,7 +449,7 @@
 			"slotName": "Legs",
 			"discreteItemSets": [
 				{
-					"itemType": "BDUPants",
+					"itemType": "TTSKOPants",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -447,7 +465,7 @@
 			"slotName": "Feet",
 			"discreteItemSets": [
 				{
-					"itemType": "JungleBoots_Black",
+					"itemType": "TTSKOBoots",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,

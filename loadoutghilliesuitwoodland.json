@@ -1,7 +1,37 @@
 {
 	"spawnWeight": 1,
-	"name": "Military_USMC_Desert",
+	"name": "Player",
 	"characterTypes": [
+		"SurvivorM_Mirek",
+		"SurvivorM_Boris",
+		"SurvivorM_Cyril",
+		"SurvivorM_Denis",
+		"SurvivorM_Elias",
+		"SurvivorM_Francis",
+		"SurvivorM_Guo",
+		"SurvivorM_Hassan",
+		"SurvivorM_Indar",
+		"SurvivorM_Jose",
+		"SurvivorM_Kaito",
+		"SurvivorM_Lewis",
+		"SurvivorM_Manua",
+		"SurvivorM_Niki",
+		"SurvivorM_Oliver",
+		"SurvivorM_Peter",
+		"SurvivorM_Quinn",
+		"SurvivorM_Rolf",
+		"SurvivorM_Seth",
+		"SurvivorM_Taiki",
+		"SurvivorF_Eva",
+		"SurvivorF_Frida",
+		"SurvivorF_Gabi",
+		"SurvivorF_Helga",
+		"SurvivorF_Irena",
+		"SurvivorF_Judy",
+		"SurvivorF_Keiko",
+		"SurvivorF_Linda",
+		"SurvivorF_Maria",
+		"SurvivorF_Naomi",
 		"SurvivorF_Baty"
 	],
 	"attachmentSlotItemSets": [
@@ -127,7 +157,7 @@
 			"slotName": "Headgear",
 			"discreteItemSets": [
 				{
-					"itemType": "BallisticHelmet_Desert",
+					"itemType": "GhillieHood_Woodland",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -143,7 +173,7 @@
 			"slotName": "Body",
 			"discreteItemSets": [
 				{
-					"itemType": "USMCJacket_Desert",
+					"itemType": "BDUJacket",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -159,7 +189,7 @@
 			"slotName": "Vest",
 			"discreteItemSets": [
 				{
-					"itemType": "PlateCarrierVest",
+					"itemType": "PlateCarrierVest_Green",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -170,7 +200,7 @@
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "PlateCarrierHolster",
+							"itemType": "PlateCarrierHolster_Green",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -194,7 +224,7 @@
 							]
 						},
 						{
-							"itemType": "PlateCarrierPouches",
+							"itemType": "PlateCarrierPouches_Green",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -251,7 +281,7 @@
 			"slotName": "Back",
 			"discreteItemSets": [
 				{
-					"itemType": "AssaultBag_Black",
+					"itemType": "GhillieSuit_Woodland",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 0.8,
@@ -300,29 +330,7 @@
 			"slotName": "Gloves",
 			"discreteItemSets": [
 				{
-					"itemType": "TacticalGloves_Beige",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
-				},
-				{
 					"itemType": "TacticalGloves_Green",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "TacticalGloves_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -347,36 +355,11 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1
-				},
-				{
-					"itemType": "BalaclavaMask_Black",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
-				},
-				{
-					"itemType": "BalaclavaMask_Beige",
-					"spawnWeight": 1,
-					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
-					},
-					"quickBarSlot": -1
 				}
 			]
 		},
 		{
-			"slotName": "Eyewear",
-			"discreteItemSets": [
-				{
-					"itemType": "AviatorGlasses",
+					"itemType": "NVGHeadstrap",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -384,9 +367,25 @@
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
-				}
-			]
+					"quickBarSlot": -1,
+					"complexChildrenTypes": [
+						{
+							"itemType": "NVGoggles",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": true,
+							"simpleChildrenTypes": [
+								"Battery9V"
+							]
+						}
+					],
+					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenTypes": []
 		},
 		{
 			"slotName": "Hands",
@@ -402,9 +401,7 @@
 					},
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
-					"simpleChildrenTypes": [
-						"Animal_UrsusArctos"
-					]
+					"simpleChildrenTypes": []
 				}
 			]
 		},
@@ -423,7 +420,7 @@
 					"quickBarSlot": -1,
 					"complexChildrenTypes": [
 						{
-							"itemType": "PlateCarrierHolster",
+							"itemType": "PlateCarrierHolster_Green",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
@@ -457,14 +454,14 @@
 							"quickBarSlot": -1
 						},
 						{
-							"itemType": "M9A1_Bayonet",
+							"itemType": "FangeKnife",
 							"attributes": {
 								"healthMin": 1.0,
 								"healthMax": 1.0,
 								"quantityMin": 1.0,
 								"quantityMax": 1.0
 							},
-							"quickBarSlot": 10
+							"quickBarSlot": 9
 						}
 					]
 				}
@@ -474,7 +471,7 @@
 			"slotName": "Legs",
 			"discreteItemSets": [
 				{
-					"itemType": "USMCPants_Desert",
+					"itemType": "BDUPants",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -490,7 +487,7 @@
 			"slotName": "Feet",
 			"discreteItemSets": [
 				{
-					"itemType": "JungleBoots_Beige",
+					"itemType": "JungleBoots_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,

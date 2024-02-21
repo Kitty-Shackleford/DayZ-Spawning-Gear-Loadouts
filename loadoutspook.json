@@ -1,6 +1,6 @@
 {
 	"spawnWeight": 1,
-	"name": "GhillieSuit_Woodland",
+	"name": "Player",
 	"characterTypes": [
 		"SurvivorM_Mirek",
 		"SurvivorM_Boris",

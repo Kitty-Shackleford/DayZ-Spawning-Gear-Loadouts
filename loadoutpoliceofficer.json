@@ -1,6 +1,6 @@
 {
 	"spawnWeight": 1,
-	"name": "Police Officer",
+	"name": "Player",
 	"characterTypes": [
 		"SurvivorM_Mirek",
 		"SurvivorM_Boris",

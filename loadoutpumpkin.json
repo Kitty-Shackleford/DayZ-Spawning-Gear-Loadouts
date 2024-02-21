@@ -1,6 +1,6 @@
 {
 	"spawnWeight": 1,
-	"name": "Pumpkin",
+	"name": "Player",
 	"characterTypes": [
 		"SurvivorF_Baty",
 		"SurvivorF_Eva",

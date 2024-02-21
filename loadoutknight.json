@@ -1,6 +1,6 @@
 {
 	"spawnWeight": 1,
-	"name": "NBC LOADOUT GRAY",
+	"name": "Player",
 	"characterTypes": [
 		"SurvivorM_Mirek",
 		"SurvivorM_Boris",
@@ -39,7 +39,18 @@
 			"slotName": "Headgear",
 			"discreteItemSets": [
 				{
-					"itemType": "NBCHoodGray",
+					"itemType": "GreatHelm",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "NorseHelm",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -55,7 +66,7 @@
 			"slotName": "Mask",
 			"discreteItemSets": [
 				{
-					"itemType": "AirborneMask",
+					"itemType": "Chainmail_Coif",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -63,11 +74,7 @@
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": false,
-					"simpleChildrenTypes": [
-						"GasMask_Filter"
-					]
+					"quickBarSlot": -1
 				}
 			]
 		},
@@ -75,7 +82,40 @@
 			"slotName": "shoulderL",
 			"discreteItemSets": [
 				{
-					"itemType": "M79",
+					"itemType": "Crossbow_Autumn",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 1
+				},
+				{
+					"itemType": "Crossbow_Black",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 1
+				},
+				{
+					"itemType": "Crossbow_Summer",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 1
+				},
+				{
+					"itemType": "Crossbow_Wood",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -91,7 +131,7 @@
 			"slotName": "shoulderR",
 			"discreteItemSets": [
 				{
-					"itemType": "M14",
+					"itemType": "Mace",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -99,11 +139,18 @@
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": 2,
-					"simpleChildrenUseDefaultAttributes": false,
-					"simpleChildrenTypes": [
-						"Mag_M14_20Rnd"
-					]
+					"quickBarSlot": 2
+				},
+				{
+					"itemType": "Sword",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 2
 				}
 			]
 		},
@@ -111,7 +158,7 @@
 			"slotName": "Body",
 			"discreteItemSets": [
 				{
-					"itemType": "NBCJacketGray",
+					"itemType": "Chainmail",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -119,7 +166,11 @@
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1
+					"quickBarSlot": -1,
+					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenTypes": [
+						"Chainmail_Coif"
+					]
 				}
 			]
 		},
@@ -203,7 +254,7 @@
 			"slotName": "Legs",
 			"discreteItemSets": [
 				{
-					"itemType": "NBCPantsGray",
+					"itemType": "Chainmail_Leggings",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -222,7 +273,57 @@
 						"BandageDressing",
 						"BandageDressing"
 					],
-					"complexChildrenTypes": []
+					"complexChildrenTypes": [
+						{
+							"itemType": "Torch",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							}
+						},
+						{
+							"itemType": "Rag",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						},
+						{
+							"itemType": "Rag",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						},
+						{
+							"itemType": "Rag",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						},
+						{
+							"itemType": "Lard",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
+					]
 				}
 			]
 		},
@@ -230,7 +331,7 @@
 			"slotName": "Feet",
 			"discreteItemSets": [
 				{
-					"itemType": "NBCBootsGray",
+					"itemType": "MedievalBoots",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -246,7 +347,29 @@
 			"slotName": "Gloves",
 			"discreteItemSets": [
 				{
-					"itemType": "NBCGlovesGray",
+					"itemType": "PaddedGloves_Brown",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "PaddedGloves_Beige",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": -1
+				},
+				{
+					"itemType": "PaddedGloves_Threat",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -259,49 +382,18 @@
 			]
 		},
 		{
-			"itemType": "PlateCarrierVest_Black",
-			"spawnWeight": 1,
-			"attributes": {
-				"healthMin": 1.0,
-				"healthMax": 1.0,
-				"quantityMin": 1.0,
-				"quantityMax": 1.0
-			},
-			"quickBarSlot": -1,
-			"simpleChildrenUseDefaultAttributes": false,
-			"simpleChildrenTypes": [
-				"Ammo_40mm_Chemgas",
-				"Ammo_40mm_Chemgas",
-				"Ammo_40mm_Chemgas",
-				"Ammo_40mm_Chemgas",
-				"PlateCarrierPouches_Black"
-			],
-			"complexChildrenTypes": [
+			"slotName": "Vest",
+			"discreteItemSets": [
 				{
-					"itemType": "PlateCarrierHolster_Black",
+					"itemType": "Chestplate",
+					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1,
-					"complexChildrenTypes": [
-						{
-							"itemType": "Glock19",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": 3,
-							"simpleChildrenUseDefaultAttributes": true,
-							"simpleChildrenTypes": [
-								"Mag_Glock_15Rnd"
-							]
-						}
-					]
+					"quickBarSlot": -1
 				}
 			]
 		},
@@ -309,7 +401,7 @@
 			"slotName": "Back",
 			"discreteItemSets": [
 				{
-					"itemType": "AliceBag_Black",
+					"itemType": "MountainBag_Red",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 0.8,
@@ -317,33 +409,64 @@
 						"quantityMin": 1.0,
 						"quantityMax": 1.0
 					},
-					"quickBarSlot": -1,
-					"simpleChildrenUseDefaultAttributes": true,
-					"simpleChildrenTypes": [
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas",
-						"Ammo_40mm_Chemgas",
-						"Ammo_40mm_Explosive",
-						"Grenade_ChemGas"
+					"quickBarSlot": -1
+				}
+			]
+		},
+		{
+			"slotName": "Hands",
+			"discreteItemSets": [
+				{
+					"itemType": "EasterEgg",
+					"spawnWeight": 1,
+					"attributes": {
+						"healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+					},
+					"quickBarSlot": 6,
+					"complexChildrenTypes": [
+						{
+							"itemType": "Animal_UrsusArctos",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						},
+						{
+							"itemType": "Animal_CapraHircus_Spooky",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						},
+						{
+							"itemType": "Animal_CanisLupus_White",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						},
+						{
+							"itemType": "Animal_GallusGallusDomesticus",
+							"attributes": {
+								"healthMin": 1.0,
+								"healthMax": 1.0,
+								"quantityMin": 1.0,
+								"quantityMax": 1.0
+							},
+							"quickBarSlot": -1
+						}
 					]
 				}
 			]
@@ -361,7 +484,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Ammo_40mm_Smoke_Black",
+					"itemType": "Ammo_HuntingBolt",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -371,7 +494,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Black",
+					"itemType": "Ammo_HuntingBolt",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -381,7 +504,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Black",
+					"itemType": "Ammo_HuntingBolt",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -393,16 +516,16 @@
 				{
 					"itemType": "FirstAidKit",
 					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
+						"healthMin": 0.7,
+						"healthMax": 0.8,
+						"quantityMin": 0.05,
+						"quantityMax": 0.1
 					},
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"BandageDressing",
-						"AntiChemInjector",
+						"TetracyclineAntibiotics",
 						"StartKitIV",
 						"BloodBagEmpty",
 						"BloodTestKit"
@@ -426,7 +549,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Ammo_40mm_Smoke_Green",
+					"itemType": "Ammo_ImprovisedBolt_1",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -436,7 +559,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Green",
+					"itemType": "Ammo_ImprovisedBolt_1",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -446,7 +569,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Green",
+					"itemType": "Ammo_ImprovisedBolt_1",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -458,16 +581,16 @@
 				{
 					"itemType": "FirstAidKit",
 					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
+						"healthMin": 0.7,
+						"healthMax": 0.8,
+						"quantityMin": 0.05,
+						"quantityMax": 0.1
 					},
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"BandageDressing",
-						"AntiChemInjector",
+						"TetracyclineAntibiotics",
 						"StartKitIV",
 						"BloodBagEmpty",
 						"BloodTestKit"
@@ -491,7 +614,7 @@
 			},
 			"complexChildrenTypes": [
 				{
-					"itemType": "Ammo_40mm_Smoke_Red",
+					"itemType": "Ammo_ImprovisedBolt_2",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -501,7 +624,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Red",
+					"itemType": "Ammo_ImprovisedBolt_2",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -511,7 +634,7 @@
 					"quickBarSlot": -1
 				},
 				{
-					"itemType": "Ammo_40mm_Smoke_Red",
+					"itemType": "Ammo_ImprovisedBolt_2",
 					"attributes": {
 						"healthMin": 1.0,
 						"healthMax": 1.0,
@@ -523,16 +646,16 @@
 				{
 					"itemType": "FirstAidKit",
 					"attributes": {
-						"healthMin": 1.0,
-						"healthMax": 1.0,
-						"quantityMin": 1.0,
-						"quantityMax": 1.0
+						"healthMin": 0.7,
+						"healthMax": 0.8,
+						"quantityMin": 0.05,
+						"quantityMax": 0.1
 					},
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
 					"simpleChildrenTypes": [
 						"BandageDressing",
-						"AntiChemInjector",
+						"TetracyclineAntibiotics",
 						"StartKitIV",
 						"BloodBagEmpty",
 						"BloodTestKit"

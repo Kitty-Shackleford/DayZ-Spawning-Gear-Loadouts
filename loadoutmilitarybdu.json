@@ -1,37 +1,7 @@
 {
 	"spawnWeight": 1,
-	"name": "GhillieSuit_Woodland",
+	"name": "Player",
 	"characterTypes": [
-		"SurvivorM_Mirek",
-		"SurvivorM_Boris",
-		"SurvivorM_Cyril",
-		"SurvivorM_Denis",
-		"SurvivorM_Elias",
-		"SurvivorM_Francis",
-		"SurvivorM_Guo",
-		"SurvivorM_Hassan",
-		"SurvivorM_Indar",
-		"SurvivorM_Jose",
-		"SurvivorM_Kaito",
-		"SurvivorM_Lewis",
-		"SurvivorM_Manua",
-		"SurvivorM_Niki",
-		"SurvivorM_Oliver",
-		"SurvivorM_Peter",
-		"SurvivorM_Quinn",
-		"SurvivorM_Rolf",
-		"SurvivorM_Seth",
-		"SurvivorM_Taiki",
-		"SurvivorF_Eva",
-		"SurvivorF_Frida",
-		"SurvivorF_Gabi",
-		"SurvivorF_Helga",
-		"SurvivorF_Irena",
-		"SurvivorF_Judy",
-		"SurvivorF_Keiko",
-		"SurvivorF_Linda",
-		"SurvivorF_Maria",
-		"SurvivorF_Naomi",
 		"SurvivorF_Baty"
 	],
 	"attachmentSlotItemSets": [
@@ -157,7 +127,7 @@
 			"slotName": "Headgear",
 			"discreteItemSets": [
 				{
-					"itemType": "GhillieHood_Woodland",
+					"itemType": "BallisticHelmet_BDU",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 1.0,
@@ -281,7 +251,7 @@
 			"slotName": "Back",
 			"discreteItemSets": [
 				{
-					"itemType": "GhillieSuit_Woodland",
+					"itemType": "AssaultBag_Black",
 					"spawnWeight": 1,
 					"attributes": {
 						"healthMin": 0.8,
@@ -359,6 +329,9 @@
 			]
 		},
 		{
+			"slotName": "Eyewear",
+			"discreteItemSets": [
+				{
 					"itemType": "NVGHeadstrap",
 					"spawnWeight": 1,
 					"attributes": {
@@ -368,24 +341,9 @@
 						"quantityMax": 1.0
 					},
 					"quickBarSlot": -1,
-					"complexChildrenTypes": [
-						{
-							"itemType": "NVGoggles",
-							"attributes": {
-								"healthMin": 1.0,
-								"healthMax": 1.0,
-								"quantityMin": 1.0,
-								"quantityMax": 1.0
-							},
-							"quickBarSlot": -1,
-							"simpleChildrenUseDefaultAttributes": true,
-							"simpleChildrenTypes": [
-								"Battery9V"
-							]
-						}
-					],
-					"simpleChildrenUseDefaultAttributes": false,
-					"simpleChildrenTypes": []
+					"simpleChildrenUseDefaultAttributes": true
+				}
+			]
 		},
 		{
 			"slotName": "Hands",
@@ -401,7 +359,9 @@
 					},
 					"quickBarSlot": -1,
 					"simpleChildrenUseDefaultAttributes": false,
-					"simpleChildrenTypes": []
+					"simpleChildrenTypes": [
+						"Animal_UrsusArctos"
+					]
 				}
 			]
 		},
